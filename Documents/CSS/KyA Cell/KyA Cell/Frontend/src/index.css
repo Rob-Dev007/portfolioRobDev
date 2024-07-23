@@ -1,0 +1,120 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import 'leaflet/dist/leaflet.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prop-menuSpan{
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+}
+
+*, *::before, *::after { 
+  @apply box-border;
+}
+
+body, html{
+  @apply overflow-x-hidden m-0 p-0;
+}
+
+.navbar{
+  @apply w-full h-14 flex justify-between items-center bg-gradient-to-tr from-purple-600 to-fuchsia-600 md:px-8 md:py-8 p-4 fixed md:top-0 transition-all duration-500 z-20 
+}
+
+.navbar-hidden{
+  @apply -top-[50px] 
+}
+
+.button-contactar{
+  @apply h-8 p-4 block mx-auto py-0 md:flex justify-center items-center bg-white text-violet-600 rounded-md hover:bg-rose-500 hover:ease-in hover:text-white font-bold ease-in transition-all duration-300
+}
+
+/** burguer button*/
+
+.menu-mobile{
+  @apply w-8 h-8 my-0 mx-[10px] relative cursor-pointer inline-block md:hidden
+}
+
+.menu-mobile span{
+  @apply bg-white absolute rounded-sm w-full h-1 duration-500 prop-menuSpan
+}
+
+.menu-mobile span:nth-child(1){
+  @apply top-0 left-0
+}
+
+.menu-mobile span:nth-child(2){
+  @apply top-[13px] left-0
+}
+
+.menu-mobile span:nth-child(3){
+  @apply bottom-0 left-0
+}
+
+.menu-mobile:not(.clickMenuMobile):hover span:nth-child(1){
+  @apply -rotate-3 scale-y-110 
+}
+
+.menu-mobile:not(.clickMenuMobile):hover span:nth-child(2){
+  @apply rotate-3 scale-y-110 
+}
+
+.menu-mobile:not(.clickMenuMobile):hover span:nth-child(3){
+  @apply -rotate-3 scale-y-110 
+}
+
+.menu-mobile.clickMenuMobile span:nth-child(1){
+  @apply rotate-45 top-[13px] bg-white
+}
+
+.menu-mobile.clickMenuMobile span:nth-child(2){
+  @apply rotate-45 bg-white
+}
+
+.menu-mobile.clickMenuMobile span:nth-child(3){
+  @apply -rotate-45 top-[13px] bg-white
+}
+
+/**menu mobile*/
+
+@layer components{
+  .hidden-menu{
+    @apply absolute bg-gradient-to-b from-purple-600 to-fuchsia-700 -left-[2100px] top-[0px] w-full h-[100vh] transition-all duration-[700ms] ease-in md:left-0 md:-top-[3000px] 
+  }
+}
+
+.hidden-menu .link-active{
+  @apply top-0 left-0 w-full h-[100%] 
+}
+
+.links{
+  @apply absolute -left-[1200px] mx-auto z-20 text-center items-center md:static md:left-auto md:m-0 md:justify-end gap-x-12 transition-all duration-[700ms] ease-in 
+}
+
+.link-active{
+  @apply w-[87%] block absolute ml-0 mr-auto text-center mt-14 mb-0 right-0 left-0 md:static md:hidden md:m-0 md:p-0
+}
+
+.link{
+  @apply block md:flex md:m-0 font-bold text-white my-20 p-3 w-full hover:bg-fuchsia-500 
+}
+
+.button-hover{
+  @apply md:flex items-center justify-center p-3 rounded-lg my-4 border-4 text-purple-600 font-bold hover:bg-gradient-to-l from-purple-600 border-purple-400 to-fuchsia-600 hover:text-white hover:border-4 hover:border-fuchsia-600 ease-in transition-all duration-300 uppercase w-full sm:w-[150px] 
+}
+
+.button-active{
+  @apply focus:text-3xl focus:text-purple-600
+}
+
+.hovered{
+  @apply relative overflow-hidden rounded-xl
+}
+
+@layer utilities {
+  .grid-auto-fill {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+}
