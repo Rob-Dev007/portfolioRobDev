@@ -1,0 +1,26 @@
+{
+  "name": "pagina-web-roberto-paredes",
+  "version": "1.0.0",
+  "description": "Pagina Web RP",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss ./src/tailwind.css -o ./public/css/main.css",
+    "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Pagina Personal Roberto Paredes"
+  },
+  "author": "Roberto Antonio Paredes Camacho",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "github": "^14.0.0",
+    "postcss-cli": "^10.1.0",
+    "win-node-env": "^0.6.1"
+  }
+}
