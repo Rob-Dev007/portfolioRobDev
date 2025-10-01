@@ -1,0 +1,43 @@
+{
+    "contact" : "Get in touch",
+    "projects" : "My projects",
+    "advertisement": "Let's work together",
+    "presentation": "I'm",
+    "career" : "Web developer",
+    "career2" : "Software developer",
+    "description": "Hi 👋, I'm Roberto, a web developer who enjoys turning ideas into functional and visually appealing digital products. My goal is to create solutions that not only work, but also have a positive impact on the people who use them.",
+    "about" : "About me", 
+    "aboutDescription" : "I have two years of experience in frontend and backend development. I am self-taught and committed to learning new tools and technologies to provide scalable and innovative solutions for every project. I seek to contribute to teams where I can bring creativity, dedication, and effective solutions.",
+    "years" : "Years of experience",
+    "myProjects" : "Projects accomplished",
+    "function" : "What I do?",
+    "development" : "Developmet of websites and web applications",
+    "projectInMind" : "Do you have a project in mind?",
+    "name" : "Your name",
+    "email" : "Your email",
+    "message" : "Your message",
+    "frontendDev" : "Frontend development",
+    "frontendDescription": "Creation of modern, responsive, and optimized interfaces using React, TypeScript, NextJs,  TailwindCSS, or Bootstrap, focused on delivering smooth and engaging user experiences.",
+    "backendDev" : "Backend development",
+    "backendDescription": "Implementation of robust APIs and systems using Node.js, Express, or PHP, ensuring scalability, security, and efficiency in data management.",
+    "boostDev" : "Optimization and best Practices",
+    "boostDescription": "Code refactoring, integration of agile methodologies, and use of version control tools (Git, GitHub) to ensure quality and maintainability.",
+    "currently" : "Currently",
+    "work" : "Working as a freelancer",
+    "myProjectsList" : "My projects",
+    "certification" : "Certifications",
+    "certificationDescription" : "Here are some certifications that showcase and validate my skills in web development.",
+    "skills" : "Technical Skills",
+    "category": "Databases and tools",
+    "send": "Send message",
+    "sending" : "Sending...",
+    "form": {
+        "errors": {
+            "nameRequired": "Name is required",
+            "emailRequired": "Email is required",
+            "emailInvalid": "Invalid email address",
+            "messageTooShort": "At least 12 characters are required"
+            }
+    }
+
+}

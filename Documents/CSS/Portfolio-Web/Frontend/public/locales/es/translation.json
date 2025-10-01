@@ -1,0 +1,42 @@
+{
+    "contact" : "Contactame",
+    "projects" : "Mis proyectos",
+    "advertisement": "Trabajemos juntos",
+    "presentation": "Soy",
+    "career" : "Desarrolador web",
+    "career2" : "Desarrollador de software",
+    "description": "Hola 👋, soy Roberto, un desarrollador web que disfruta convertir ideas en productos digitales funcionales y atractivos. Mi objetivo es crear soluciones que no solo funcionen, sino que también impacten positivamente en las personas que las usan.",
+    "about" : "Acerca de mi",
+    "aboutDescription" : "Tengo dos años de experiencia en el desarrollo frontend y backend. Soy autodidacta, empeñado en aprender nuevas herramientas y técnologías con la finalidad aportar soluciones escalables e innovadoras a cada proyecto. Busco contribuir en equipos en los que pueda aportar creatividad, compromiso y soluciones efectivas.",
+    "years" : "Años de experiencia",
+    "myProjects" : "Proyectos realizados",
+    "function" : "¿Qué realizo?",
+    "development" : "Desarrollo de páginas y aplicaciones web",
+    "projectInMind" : "¿Tienes un proyecto en mente?",
+    "name" : "Ingrese sus nombres",
+    "email" : "Ingrese su correo",
+    "message" : "Ingrese el mensaje",
+    "frontendDev" : "Desarrollo frontend",
+    "frontendDescription": "Creación de interfaces modernas, responsivas y optimizadas con React, Typescript, NextJs, TailwindCSS o Bootstrap, enfocadas en ofrecer experiencias de usuario fluidas y atractivas.",
+    "backendDev" : "Desarrollo backend",
+    "backendDescription": "Implementación de APIs y sistemas robustos utilizando Node.js, Express o PHP, asegurando escalabilidad, seguridad y eficiencia en la gestión de datos.",
+    "boostDev" : "Optimización y buenas prácticas",
+    "boostDescription": "Refactorización de código, integración de metodologías ágiles y uso de herramientas de control de versiones (Git, GitHub) para garantizar calidad y mantenibilidad.",
+    "currently" : "Actualmente",
+    "work" : "Me desempeño como freelancer",
+    "myProjectsList" : "Mira mis proyectos",
+    "certification" : "Certificaciones",
+    "certificationDescription" : "Presento algunas certificaciones que validan mis conocimientos en desarrollo web.",
+    "skills" : "Habilidades técnicas",
+    "category": "Bases de datos y herramientas",
+    "send": "Enviar mensaje",
+    "sending" : "Enviando...",
+    "form": {
+        "errors": {
+            "nameRequired": "Nombre es obligatorio",
+            "emailRequired": "Correo es obligatorio",
+            "emailInvalid": "Correo no es válido",
+            "messageTooShort": "Mínimo 12 caracteres necesarios"
+            }
+  }
+}
