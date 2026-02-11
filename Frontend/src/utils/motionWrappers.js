@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 
-const MotionWrapper = ({ className, variants, viewport, children, key }) =>{
+const MotionWrapper = ({ className, variants, viewport, children, key, onClick,...rest }) =>{
     return(
         <motion.div 
               variants={ variants }
@@ -9,6 +9,8 @@ const MotionWrapper = ({ className, variants, viewport, children, key }) =>{
               viewport={ viewport }
               className={ className }
               key={key}
+              onClick={onClick}
+              {...rest}
               >
                 { children }
         </motion.div>
