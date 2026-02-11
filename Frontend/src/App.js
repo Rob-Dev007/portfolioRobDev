@@ -7,7 +7,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import Certificados from './components/Certificados';
+import Certificados from './components/Certificates';
 import Skills from './components/Skills';
 import { I18nextProvider } from 'react-i18next';
 

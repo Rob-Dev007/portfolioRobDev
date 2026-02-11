@@ -32,7 +32,7 @@ const Nav = () => {
                   <BsBriefcase />
                 </NavLink>
                 <NavLink
-                  to={"certificados"}
+                  to={"certificates"}
                 >
                   <BsBook />
                 </NavLink>

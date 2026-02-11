@@ -17,7 +17,7 @@ const Certificados = () => {
   }
 
   return (
-    <section className="section my-24" id="certificados">
+    <section className="section my-24" id="certificates">
       <div className="container mx-auto">
         <motion.h2
           variants={fadeIn('right', 0.3)}
