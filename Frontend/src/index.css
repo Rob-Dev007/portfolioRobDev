@@ -10,9 +10,6 @@
     @apply flex-1 bg-about bg-contain bg-no-repeat h-44 lg:h-[640px] bg-top;
   }
   
-  /**.img-services-mix-blend{
-    @apply flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mb-12 lg:mb-0;
-  }**/
 }
 
 .App.dark{
@@ -23,9 +20,6 @@
     @apply flex-1 bg-about bg-contain bg-no-repeat h-[640px] bg-top mix-blend-lighten;
   }
 
-  /**.img-services-mix-blend{
-    @apply flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0;
-  }**/
 }
 
 .btn {
