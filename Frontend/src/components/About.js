@@ -4,6 +4,7 @@ import { fadeIn } from '../variants';
 import MotionWrapper from '../utils/motionWrappers';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
+import imgAbout  from '../../src/assets/imgAbout.png';
 import ModalCV from './CvModal';
 
 const About = () => {
@@ -19,12 +20,17 @@ const About = () => {
 
   return <section className='section' id='about' ref={ref}>
     <div className='container mx-auto mt-12'>
-      <div className='flex gap-y-12 flex-col lg:flex-row lg:items-center lg:gap-x-21 lg:gap-y-0 min-h-screen
+      <div className='flex gap-y-6 flex-col lg:flex-row lg:items-center lg:gap-x-21 lg:gap-y-0 min-h-screen
       '>
         <MotionWrapper  
           variants={ fadeIn('right', 0.3) }
-          viewport={ {once:false, amount:0.3} }
-          className= 'img-about-mix-blend'>
+          viewport={ {once:false, amount:0.3} }>
+            <img 
+              className="flex-1 w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[640px] object-contain object-top" 
+              src={imgAbout}
+              alt='Img_about_Roberto_Paredes.jpg'
+              loading='lazy'
+            />
         </MotionWrapper>
         <MotionWrapper
           variants={fadeIn('left', 0.5)}
@@ -33,7 +39,7 @@ const About = () => {
         >
           <h2 className='h2 text-accent font-bold'>{t("about")}</h2>
           <p className='font-secondary lg:text-xl leading-tight mb-4'>{t("aboutDescription")}</p>
-          <div className='flex gap-12 lg:gap-21 mb-12'>
+          <div className='flex gap-12 lg:gap-21 mb-4 lg:mb-8'>
             <div>
               <div className='text-[40px] font-tertiary text-gradient'>
               {inView ? <CountUp start={0} end={2} duration={3}/> : null}
