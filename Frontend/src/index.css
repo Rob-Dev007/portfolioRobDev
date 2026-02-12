@@ -5,21 +5,11 @@
 .App.light{
   background-color: #ffffff;
   color: #000;
-
-  .img-about-mix-blend{
-    @apply flex-1 bg-about bg-contain bg-no-repeat h-44 lg:h-[640px] bg-top;
-  }
-  
 }
 
 .App.dark{
   background-color: #222222;
   color: #fff;
-  
-  .img-about-mix-blend{
-    @apply flex-1 bg-about bg-contain bg-no-repeat h-[640px] bg-top mix-blend-lighten;
-  }
-
 }
 
 .btn {
@@ -89,11 +79,12 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 
-  .lighten{
-    @apply flex-1 bg-about bg-contain bg-no-repeat h-[640px] bg-top;
-  }
 }
 
 .error{
   @apply text-red-500 uppercase font-bold 
+}
+
+.shadow-avatar {
+  box-shadow: 0 0 40px rgba(86, 175, 255, 0.4), 0 0 80px rgba(184, 9, 195, 0.3);
 }
