@@ -64,7 +64,7 @@ const ModalCV = ({ isOpen, onClose }) => {
 
             {/* Preview */}
             <iframe
-              src="/Roberto_Paredes_Fullstack_Developer.pdf"
+              src={`${process.env.PUBLIC_URL}/Roberto_Paredes_Fullstack_Developer.pdf`}
               className="w-full h-[calc(85vh-120px)]"
               title="CV Preview"
             />
@@ -72,7 +72,7 @@ const ModalCV = ({ isOpen, onClose }) => {
             {/* Footer */}
             <div className="flex justify-end px-6 py-1 border-t border-white/10">
               <a
-                href="/Roberto_Paredes_FullStack_Developer.pdf"
+                href={`${process.env.PUBLIC_URL}/Roberto_Paredes_Fullstack_Developer.pdf`}
                 download="Roberto_Paredes_FullStack_Developer.pdf"
                 className="px-6 py-2 rounded-full 
                            bg-gradient-to-r from-indigo-500 to-fuchsia-500 
