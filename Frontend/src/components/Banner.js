@@ -82,14 +82,14 @@ const Banner = () => {
                     absolute rounded-full inset-5 blur-2xl opacity-60
                     bg-gradient-to-tr from-indigo-500 via-sky-500 to-fuchsia-500
                     dark:opacity-80
-                    transition duration-500 group-hover:scale-110
+                    transition duration-500 group-hover:scale-110 
                   "></div>
 
                   <div className="
                     relative rounded-full overflow-hidden
                     border-4 border-white/30 dark:border-white/10
-                    shadow-xl
-                    transition duration-500 group-hover:-translate-y-2
+                    shadow-sm
+                    transition duration-500 group-hover:-translate-y-2 shadow-avatar
                   ">
                     <div className="w-[350px] h-[350px] rounded-full overflow-hidden relative">
                       <img
